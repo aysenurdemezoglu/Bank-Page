@@ -1,0 +1,357 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  height: 10%;
+  background-image: url(./images/background.png);
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.header p {
+  font-style: italic;
+  font-size: 1.4rem;
+}
+
+.banklogo {
+  display: flex;
+  align-items: center;
+}
+
+.banklogo img {
+  width: 80px;
+  height: auto;
+  margin-right: 10px;
+  border-radius: 8%;
+}
+
+header h1 {
+  font-size: 3rem;
+}
+
+main {
+  padding-top: 140px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+
+.leftcolumn,
+.centercolumn,
+.rightcolumn {
+  background-color: (218, 194, 254);
+  padding: 10px;
+  width: 20%;
+}
+
+.leftcolumn {
+  background-image: url(./images/sidebarbackground.jpg);
+  padding-top: 5px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.leftcolumn h3 {
+  color: white;
+  padding-bottom: 9px;
+}
+
+.centercolumn {
+  flex: 2;
+  width: 100%;
+  padding: 10px;
+  text-align: justify;
+  padding: 25px;
+  max-height: 205vh;
+  background-image: url(./images/centerbackground.jpg);
+  color: black;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.centercolumn h1 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.rightcolumn {
+  flex: 1;
+  flex-direction: column;
+  width: 20%;
+  align-items: center;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-left: 1px solid #ddd;
+  justify-content: center;
+  background-image: url(./images/sidebarbackground.jpg);
+}
+
+main .contentnav {
+  background-color: rgb(47, 47, 102);
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-size: large;
+  font-weight: 700;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.info-section {
+  display: flex;
+  justify-content: space-around;
+  ;
+  align-items: center;
+  gap: 20px;
+  background-image: url(./images/background.png);
+  background-size: cover;
+  padding: 20px;
+  height: 170px;
+}
+
+.info-box {
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 240, 248, 0.8);
+  flex: 1;
+  max-width: 200px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  align-items: center;
+}
+
+.footer {
+  width: 100%;
+  background-color: #4a4a4a;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  bottom: 0;
+  left: 0;
+}
+
+main {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.exchangerates {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.money {
+  display: flex;
+  justify-content: center;
+  border: 5px rgb(190, 157, 191) solid;
+  border-radius: 3px;
+  margin: 9px;
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 65px 10px 65px;
+}
+
+.money p {
+  padding-bottom: 10px;
+  font-size: large;
+}
+
+.money img {
+  width: 50px;
+  padding-bottom: 5px;
+  border-radius: 3px;
+}
+
+.accountinformation img {
+  border: 3px solid rgb(190, 157, 191) solid;
+  width: 100%;
+  max-width: 200px;
+}
+
+.account {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.accountinformation p {
+  font-size: medium;
+}
+
+.accountinformation {
+  width: 80%;
+  max-width: 300px;
+  border: 8px solid rgb(190, 157, 191);
+  background-color: #fcfcfc;
+  border-radius: 30px;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin: 15px;
+}
+
+.accountbalance {
+  border: 8px solid rgb(190, 157, 191);
+  background-color: #fcfcfc;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin: 15px;
+}
+
+.accountbalance img {
+  width: 100px;
+  margin: 10px;
+}
+
+.accountbalance p {
+  border: 8px solid rgb(190, 157, 191);
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.account-previous-transactions {
+  border: 4px solid skyblue;
+  background-color: #b96565;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  margin-top: 0px;
+}
+
+.previoustransactions p {
+  border: 4px solid rgb(190, 157, 191) solid;
+  border-radius: 10px;
+  background-color: #fcfcfc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  margin: 5px;
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  flex: 1;
+}
+
+.accountbalance h1 {
+  margin: 15px;
+}
+
+@media only screen and (max-width: 767px) {
+  .container {
+    flex-direction: column;
+  }
+
+  section {
+    width: auto;
+    height: auto;
+    font-size: 1rem;
+  }
+
+  .leftcolumn {
+    width: 100%;
+    height: auto;
+  }
+
+  .centercolum {
+    height: auto;
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .rightcolumn {
+    height: auto;
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  #euro,
+  #dollar,
+  #coin,
+  #pound,
+  #gold {
+    width: 30px;
+    height: 30px;
+  }
+
+  #wallet {
+    max-width: 100%;
+    height: auto;
+    margin-left: 5px;
+  }
+
+  .money {
+    margin-right: 5px;
+    width: 80%;
+  }
+
+  .money button {
+    width: 100%;
+  }
+
+  .money button * {
+    margin: auto;
+  }
+
+  .flex-item-box-right-inf {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .info-section {
+    flex-wrap: wrap;
+    height: fit-content;
+  }
+
+  .info-section .info-box {
+    width: 200px;
+  }
+
+  .header * {
+    scale: 0.75;
+  }
+
+  .header .banklogo img {
+    scale: 1.5;
+  }
+}
